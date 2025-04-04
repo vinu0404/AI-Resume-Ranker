@@ -2,7 +2,6 @@ import boto3
 import json
 import pandas as pd
 
-# Load the sampled resumes dataset
 df_sampled = pd.read_csv("25_rows.csv")
 # Initialize the Bedrock client
 bedrock = boto3.client(service_name="bedrock-runtime", region_name="us-east-1")  # Change region if needed
@@ -28,4 +27,4 @@ df_sampled["embedding"] = df_sampled["Resume_str"].apply(get_embedding)
 # Save the dataset with embeddings to avoid recomputation
 df_sampled.to_csv("25rows_with_embeddings.csv", index=False)
 
-print("✅ Embeddings generated and saved successfully!")
+print("Embeddings generated and saved successfully!")
