@@ -1,4 +1,5 @@
 #  AI-Powered Resume Screening System
+[DEMO VIDEO LINK](https://drive.google.com/file/d/1SH-a1j0CML2JReehHwkkx9UrxYSHb98K/view?usp=sharing)
 
 Automate and streamline resume screening using NLP, vector similarity, and agentic querying with **AWS Bedrock** and a  **Streamlit dashboard**.
 
