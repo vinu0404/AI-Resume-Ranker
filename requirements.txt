@@ -6,7 +6,7 @@ botocore
 pypdf
 scikit-learn
 python-dotenv
-tqdm
 requests
 langchain
 langchain-community
+tqdm
