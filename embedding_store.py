@@ -25,6 +25,6 @@ def get_embedding(text):
 df_sampled["embedding"] = df_sampled["Resume_str"].apply(get_embedding)
 
 # Save the dataset with embeddings to avoid recomputation
-df_sampled.to_csv("25rows_with_embeddings.csv", index=False)
+df_sampled.to_csv("25_rows_per_category.csv", index=False)
 
 print("Embeddings generated and saved successfully!")
